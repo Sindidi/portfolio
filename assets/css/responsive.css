@@ -50,7 +50,7 @@
         padding-bottom: 20px;
     }
     .page-right {
-        /* margin-top: 62px; */
+        margin-top: 62px;
     }
     .page-right-zero-height {
         height: 0 !important;
@@ -59,7 +59,7 @@
     }
     .page-right-normal-height,
     .pt-perspective.overFlowHidden {
-        height: calc(100vh - 0px) !important;
+        height: calc(100vh - 62px) !important;
     }
     .home_type {
         margin-top: 62px;
