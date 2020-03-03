@@ -5,6 +5,7 @@ Template Name: Nassar - Creative Resume / CV / Portfolio / vCard
 * ----------------------------------------------------
 */
 
+
 /*
 * -----------------------------------------------------
 *  01.Common Styles 
@@ -22,12 +23,14 @@ Template Name: Nassar - Creative Resume / CV / Portfolio / vCard
 */
 
 
-
 /*=================================*/
+
+
 /*  01.Common Styles 
 /*=================================*/
 
-body, html {
+body,
+html {
     font-size: 100%;
     padding: 0;
     margin: 0;
@@ -45,7 +48,8 @@ body {
     overflow: hidden;
     font-family: "Nunito", sans-serif;
     color: #666;
-    background-color: #f6f6f6;/*#ecf0f1*/
+    background-color: #f6f6f6;
+    /*#ecf0f1*/
     line-height: 1.8;
 }
 
@@ -84,7 +88,12 @@ img.full_width {
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
     color: #232323;
@@ -98,11 +107,14 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-a, a:visited {
+a,
+a:visited {
     color: inherit;
 }
 
-b, strong, label {
+b,
+strong,
+label {
     font-weight: 600;
 }
 
@@ -162,16 +174,14 @@ section.pt-page .scroll___content {
     padding: 30px 0;
 }
 
-@media(max-width:1200px){
-
+@media(max-width:1200px) {
     section.pt-page {
         padding: 0 4%;
     }
-
     section.pt-page .scroll___content {
         padding: 20px 0;
+        padding-top: 82px;
     }
-
 }
 
 section.pt-page .scroll__content {
@@ -220,7 +230,7 @@ section:not(.pt-page) .sec_title {
 }
 
 .sec_title:before {
-	content: "";
+    content: "";
     position: absolute;
     bottom: 3px;
     left: 50px;
@@ -312,23 +322,24 @@ section:not(.pt-page) .sec_title {
     z-index: 10;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     text-decoration: none;
     outline: none;
 }
 
 button,
-button:active, 
-button:focus, 
+button:active,
+button:focus,
 button:hover {
     border-color: transparent;
 }
 
-.btn:focus, 
-.btn:active:focus, 
-.btn.active:focus, 
-.btn.focus, 
-.btn:active.focus, 
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
 .btn.active.focus {
     outline: 0;
 }
@@ -353,7 +364,8 @@ button:hover {
     transform-style: preserve-3d;
 }
 
-.pt-page-current, .no-js .pt-page {
+.pt-page-current,
+.no-js .pt-page {
     visibility: visible;
     z-index: 1;
     padding: 30px 60px;
@@ -369,7 +381,7 @@ button:hover {
 }
 
 .pt-perspective.overFlowHidden {
-	overflow: hidden;
+    overflow: hidden;
     height: 100vh;
 }
 
@@ -402,11 +414,13 @@ button.btn:active {
     color: #fff;
 }
 
+
 /*End Common Styles*/
 
 
-
 /*=================================*/
+
+
 /*  02.Preloader 
 /*=================================*/
 
@@ -417,7 +431,7 @@ button.btn:active {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fff;  
+    background: #fff;
 }
 
 .loader {
@@ -438,15 +452,17 @@ button.btn:active {
 @keyframes loaderAnim {
     to {
         opacity: 1;
-        transform: scale3d(0.5,0.5,1);
+        transform: scale3d(0.5, 0.5, 1);
     }
 }
+
 
 /*End Preloader*/
 
 
-
 /*=================================*/
+
+
 /*  03.Home
 /*=================================*/
 
@@ -492,7 +508,7 @@ button.btn:active {
     width: 50%;
 }
 
-.open-right .side-right > .home-lines .linesContent {
+.open-right .side-right>.home-lines .linesContent {
     width: 100%;
     transform: translateX(-50%);
     left: 50%;
@@ -507,30 +523,30 @@ button.btn:active {
     transition: all 0.6s;
 }
 
-.open-right .side-right > .home-lines .home-line {
+.open-right .side-right>.home-lines .home-line {
     width: 30px;
     height: 30px;
 }
 
-.home-lines .home-line:nth-child(1){
+.home-lines .home-line:nth-child(1) {
     right: 30px;
     top: 30px;
     border-right-width: 3px;
-    border-right-style: solid; 
+    border-right-style: solid;
     border-top-width: 3px;
-    border-top-style: solid; 
+    border-top-style: solid;
 }
 
-.home-lines .home-line:nth-child(2){
+.home-lines .home-line:nth-child(2) {
     bottom: 30px;
     left: 30px;
     border-left-width: 3px;
-    border-left-style: solid; 
+    border-left-style: solid;
     border-bottom-width: 3px;
-    border-bottom-style: solid; 
+    border-bottom-style: solid;
 }
 
-.home-lines .home-line:nth-child(3){
+.home-lines .home-line:nth-child(3) {
     left: 30px;
     top: 30px;
     border-left-width: 3px;
@@ -539,7 +555,7 @@ button.btn:active {
     border-top-style: solid;
 }
 
-.home-lines .home-line:nth-child(4){
+.home-lines .home-line:nth-child(4) {
     right: 30px;
     bottom: 30px;
     border-right-width: 3px;
@@ -548,28 +564,23 @@ button.btn:active {
     border-bottom-style: solid;
 }
 
-@media(max-width:1200px){
-
-    .home-lines .home-line:nth-child(1){
+@media(max-width:1200px) {
+    .home-lines .home-line:nth-child(1) {
         right: 20px;
         top: 20px;
     }
-
-    .home-lines .home-line:nth-child(2){
+    .home-lines .home-line:nth-child(2) {
         bottom: 20px;
         left: 20px;
     }
-
-    .home-lines .home-line:nth-child(3){
+    .home-lines .home-line:nth-child(3) {
         left: 20px;
         top: 20px;
     }
-
-    .home-lines .home-line:nth-child(4){
+    .home-lines .home-line:nth-child(4) {
         right: 20px;
         bottom: 20px;
     }
-
 }
 
 .home_type .side {
@@ -608,7 +619,7 @@ button.btn:active {
 }
 
 .home_type .more_info .item:first-of-type {
-	border-top: 1px dashed rgba(255, 255, 255, 0.29);
+    border-top: 1px dashed rgba(255, 255, 255, 0.29);
 }
 
 .home_type .more_info a:hover {
@@ -645,15 +656,17 @@ button.btn:active {
 }
 
 .home_type .more_info a.bgColor:hover {
-	background-color: transparent;
-	border-color: #fff;
+    background-color: transparent;
+    border-color: #fff;
 }
+
 
 /*End Home Type*/
 
 
-
 /*=================================*/
+
+
 /*  04.Menu
 /*=================================*/
 
@@ -761,7 +774,6 @@ button.btn:active {
     transition: all 0.6s;
 }
 
-
 .menu_list a:after {
     content: attr(data-hover);
     position: absolute;
@@ -794,7 +806,7 @@ button.btn:active {
 }
 
 .menu_list .home-item svg {
-	transform: rotate(180deg);
+    transform: rotate(180deg);
     width: 18px;
     fill: #111;
     transition: all 0.3s;
@@ -821,11 +833,13 @@ button.btn:active {
     -webkit-text-stroke: 2.5px #111;
 }
 
+
 /*End Menu*/
 
 
-
 /*=================================*/
+
+
 /*  05.About Section 
 /*=================================*/
 
@@ -882,14 +896,14 @@ button.btn:active {
     line-height: 1;
 }
 
-.skill > span:not(.percentage) {
+.skill>span:not(.percentage) {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #282828;
     font-size: 14px;
 }
 
-.skill > span.percentage {
+.skill>span.percentage {
     float: right;
     font-size: 13px;
     color: #acacac;
@@ -1037,40 +1051,35 @@ button.btn:active {
     color: rgba(0, 0, 0, 0.58);
 }
 
-@media(min-width:992px) and (max-width:1200px){
-
+@media(min-width:992px) and (max-width:1200px) {
     .funFactsRow {
         margin: 0;
     }
-
-    .funFactsRow > div {
+    .funFactsRow>div {
         padding: 0;
     }
-
-    .funFactsRow > div:not(:first-of-type) .item {
+    .funFactsRow>div:not(:first-of-type) .item {
         border-left: none;
     }
-
     .fun-facts span {
         font-size: 44px;
     }
-
     .fun-facts h4 {
         font-size: 28px;
         margin-top: 15px;
     }
-
     .fun-facts h5 {
         font-size: 14px;
     }
-
 }
+
 
 /*End About Section*/
 
 
-
 /*=================================*/
+
+
 /*  06.Resume Section 
 /*=================================*/
 
@@ -1100,7 +1109,8 @@ button.btn:active {
     top: 4px;
 }
 
-.resume .date:after, .resume .date:before {
+.resume .date:after,
+.resume .date:before {
     content: "";
     position: absolute;
     top: 9px;
@@ -1159,11 +1169,13 @@ button.btn:active {
     margin-top: 11px;
 }
 
+
 /*End Resume Section*/
 
 
-
 /*=================================*/
+
+
 /*  07.Services Section 
 /*=================================*/
 
@@ -1218,11 +1230,13 @@ button.btn:active {
     margin-bottom: 12px;
 }
 
+
 /*End Services Section*/
 
 
-
 /*=================================*/
+
+
 /*  08.Prtfolio Section
 /*=================================*/
 
@@ -1377,7 +1391,6 @@ li.active_filter:after {
     display: block;
     text-align: center;
     line-height: 42px;
-
 }
 
 .portfolio_sec .item .info i:after {
@@ -1394,24 +1407,25 @@ li.active_filter:after {
 }
 
 @-webkit-keyframes popup-anim {
-  0% {
-  	    opacity: 0;
-    	transform: scale(0.8);
-  }
-   100% {
-  	    opacity: 1;
-    	transform: scale(1);
-  }
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
+
 @keyframes popup-anim {
-  0% {
-  	    opacity: 0;
-    	transform: scale(0.8);
-  }
-   100% {
-  	    opacity: 1;
-    	transform: scale(1);
-  }
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .portfolioAjaxContent .zoom-anim-dialog {
@@ -1449,7 +1463,7 @@ li.active_filter:after {
     width: 100%
 }
 
-.zoom-anim-dialog .display-table-cell{
+.zoom-anim-dialog .display-table-cell {
     padding-top: 33px;
 }
 
@@ -1495,11 +1509,13 @@ li.active_filter:after {
     padding: 30px 30px;
 }
 
+
 /*End Prtfolio Section*/
 
 
-
 /*=================================*/
+
+
 /*  09.Blog Section
 /*=================================*/
 
@@ -1629,49 +1645,48 @@ li.active_filter:after {
 }
 
 @-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
 }
 
 @keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
 }
+
 
 /*End Blog Section*/
 
 
-
 /*=================================*/
+
+
 /*  10.Contact Section 
 /*=================================*/
-
 
 .contact .subtitle {
     margin-bottom: 41px;
 }
 
-@media(max-width:768px){
+@media(max-width:768px) {
     .contact #map {
         margin-bottom: 30px;
     }
@@ -1722,7 +1737,7 @@ input.form-control {
 }
 
 .msg_success,
-.msg_error{
+.msg_error {
     display: none;
     font-size: 12px;
     padding-top: 15px;
@@ -1736,15 +1751,13 @@ input.form-control {
 }
 
 .msg_success p {
-  color: #1FB4DA;
+    color: #1FB4DA;
 }
 
-@media(max-width:768px){
-
+@media(max-width:768px) {
     .contact-info .item {
         margin-bottom: 30px;
     }
-
 }
 
 .contact .contact-info .icon {
@@ -1758,13 +1771,18 @@ input.form-control {
     margin-bottom: 0;
 }
 
+
 /*End Contact Section*/
 
 
 /*=================================*/
+
+
 /*  11.Single Blog 
 /*=================================*/
-.post, .page{
+
+.post,
+.page {
     margin: 0;
 }
 
@@ -1782,7 +1800,7 @@ header.entry-header:after {
     height: 3px;
 }
 
-.page header.entry-header:after{
+.page header.entry-header:after {
     width: 0;
     height: 0;
 }
@@ -1795,31 +1813,33 @@ body.single .page-right {
     left: 25%;
 }
 
-.single-blog > .page-inner > .main-content {
+.single-blog>.page-inner>.main-content {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.single-blog > .page-inner > .main-content > .content {
+.single-blog>.page-inner>.main-content>.content {
     padding-bottom: 15px;
 }
 
-.single-blog > .page-inner > .main-content > .content {
+.single-blog>.page-inner>.main-content>.content {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
 
-.single-blog > .page-inner > .main-content > .content > .container {
-	padding: 0 50px;
+.single-blog>.page-inner>.main-content>.content>.container {
+    padding: 0 50px;
 }
 
 .single-blog .padding-bottom-90 .sec__content {
     padding-bottom: 15px;
 }
 
+
 /*post header*/
+
 .entry-header .cats {
     text-align: center;
     font-size: 13px;
@@ -1868,7 +1888,9 @@ body.single .page-right {
     margin-right: 10px;
 }
 
+
 /*post content*/
+
 .tags__share {
     padding: 28px 0;
     position: relative;
@@ -1966,7 +1988,6 @@ ul.share-post {
     margin: 0 10px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-
 }
 
 .share-post li:last-of-type a {
@@ -1979,7 +2000,8 @@ ul.share-post {
     border-bottom: 1px solid #eaeaea;
 }
 
-.post-nav .prev, .post-nav .next {
+.post-nav .prev,
+.post-nav .next {
     position: relative;
     min-height: 70px;
 }
@@ -1988,7 +2010,7 @@ ul.share-post {
     padding-left: 90px;
 }
 
-.post-nav .prev img, 
+.post-nav .prev img,
 .post-nav .next img {
     position: absolute;
     left: 0;
@@ -2037,8 +2059,11 @@ ul.share-post {
     display: none;
 }
 
+
 /*Comments*/
-.comments-area li > ul, li > ol {
+
+.comments-area li>ul,
+li>ol {
     list-style: none;
 }
 
@@ -2060,16 +2085,16 @@ ul.share-post {
     margin-bottom: 20px;
 }
 
-.comments-list > li {
+.comments-list>li {
     border-bottom: 1px solid #eaeaea;
     padding-top: 30px;
 }
 
-.comments-list > li:first-of-type {
+.comments-list>li:first-of-type {
     padding-top: 0;
 }
 
-.comments-list > li:last-of-type {
+.comments-list>li:last-of-type {
     margin-bottom: 25px;
 }
 
@@ -2078,7 +2103,7 @@ ul.share-post {
     padding-left: 100px;
 }
 
-.comments-list li .children > li {
+.comments-list li .children>li {
     padding-top: 30px;
     border-top: 1px solid #eaeaea;
 }
